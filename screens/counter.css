@@ -23,7 +23,7 @@
   text-align: center;
 }
 #textBox {
-  min-width: 500px;
+  width: 500px;
   height: 120px;
   font-size: 140px;
 }
