@@ -1,0 +1,14 @@
+/*追加分*/
+.dContainer {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  font-size: 140px;
+  margin: auto;
+  text-align: center;
+}
