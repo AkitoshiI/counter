@@ -1,17 +1,29 @@
 /*追加分*/
-.cContainer {
-  width: 400px;
-  height: auto;
+
+.dContainer {
+  width: fit-content;
+
+  height: 200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
-.button {
-  width: 150px;
-  height: 90px;
-  border-radius: 60px;
-  font-size: 40px;
-  border-color: black;
-  border-width: 4px;
-  background-color: #c8d7dd;
+#displayBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#display {
+  display: inline-block;
+  width: auto;
+  font-size: 140px;
+  margin: auto;
+  text-align: center;
+}
+#textBox {
+  min-width: 500px;
+  height: 120px;
+  font-size: 140px;
 }
